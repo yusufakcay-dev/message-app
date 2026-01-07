@@ -1,6 +1,16 @@
+<div align="center">
+
 A real‑time messaging application with a GraphQL Apollo Server backend built on Node.js, TypeScript, Prisma, Redis Pub/Sub, and WebSockets, paired with a Next.js frontend using Tailwind CSS & Server Components.
 
 Supports user authentication, conversations, messaging, and live, real‑time subscriptions.
+
+## Live links
+
+## [Website](https://message-app-beta-cyan.vercel.app/) - [GraphQL Sandbox](https://message-app-7zot.onrender.com/graphql)
+
+> **Environment:** Frontend - Vercel • Backend - Render web service free tier
+
+</div>
 
 ---
 
@@ -11,7 +21,7 @@ Supports user authentication, conversations, messaging, and live, real‑time su
 - **Messages**: send, fetch, real‑time updates
 - **Subscriptions** via WebSockets: live notifications for new conversations & messages
 - **Persistence** with MongoDB (via Prisma)
-- **Pub/Sub** powered by Redis for scalable real‑time events
+- **Pub/Sub** Implemented Redis Pub/Sub to decouple WebSocket state from individual server instances, enabling the backend to scale horizontally without losing message synchronization.
 - **JWT‑based authentication**
 
 ---
