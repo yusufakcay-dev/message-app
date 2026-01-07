@@ -41,7 +41,7 @@ Supports user authentication, conversations, messaging, and live, real‑time su
 
 - **Frontend**
 
-  - Next.js (v15.3.2) for server-rendered React apps
+  - Next.js (v15.3.8) for server-rendered React apps
   - React (v19.1.0) for UI
   - Apollo Client (including @apollo/client-integration-nextjs) for data fetching
   - graphql & graphql-ws for real-time GraphQL subscriptions
